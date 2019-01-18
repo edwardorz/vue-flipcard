@@ -1,0 +1,51 @@
+{
+  "name": "vue-flipcard",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/vue-flipcard.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve ./demo/main.js",
+    "pages": "vue-cli-service build demo/main.js --dest docs",
+    "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard"
+  },
+  "dependencies": {
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
