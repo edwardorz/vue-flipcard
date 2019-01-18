@@ -98,6 +98,7 @@ body {
 
   .content {
     padding: 0 20px;
+    text-align: left;
   }
 
 
