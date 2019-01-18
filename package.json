@@ -1,12 +1,12 @@
 {
   "name": "vue-flipcard",
-  "version": "0.0.3",
-  "main": "./dist/vue-flipcard.common.js",
+  "version": "0.0.4",
+  "main": "./build/vue-flipcard.common.js",
   "keywords": ["vue", "component", "flipcard", "flip"],
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main.js",
     "pages": "vue-cli-service build demo/main.js --dest docs",
-    "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard"
+    "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build"
   },
   "dependencies": {
     "less": "^3.8.1",
