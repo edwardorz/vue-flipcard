@@ -1,7 +1,6 @@
 {
   "name": "vue-flipcard",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.2",
   "main": "./dist/vue-flipcard.common.js",
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main.js",
