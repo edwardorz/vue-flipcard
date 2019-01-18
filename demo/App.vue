@@ -88,8 +88,7 @@ body {
   }
 
   .card-container {
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
 
   .vue-flipcard {
@@ -115,12 +114,6 @@ body {
     border-radius: 3px;
     background-color: #2196F3;
     color: #fff;
-  }
-
-  .github-corner {
-    position: absolute;
-    right: 0;
-    top: 0;
   }
 }
 </style>
