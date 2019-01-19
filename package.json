@@ -1,6 +1,6 @@
 {
   "name": "vue-flipcard",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./build/vue-flipcard.common.js",
   "keywords": [
     "vue",
@@ -13,6 +13,13 @@
     "pages": "vue-cli-service build demo/main.js --dest docs",
     "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build"
   },
+  "repository": "git@github.com:edwardorz/vue-flipcard.git",
+  "author": "edwardorz <edwardyuguo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwardorz/vue-flipcard/issues"
+  },
+  "homepage": "https://github.com/edwardorz/vue-flipcard#readme",
   "dependencies": {
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
