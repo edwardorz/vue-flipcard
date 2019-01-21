@@ -5,10 +5,10 @@
 
 Vue flip card component
 
-## demo
+### Demo
 [https://edwardorz.github.io/vue-flipcard/](https://edwardorz.github.io/vue-flipcard/)
 
-## Install | 安装
+### Install | 安装
 ```bash
 // use yarn
 yarn add vue-flipcard
@@ -17,7 +17,7 @@ yarn add vue-flipcard
 npm i vue-flipcard
 ```
 
-## Usage | 用法
+### Usage | 用法
 ```javascript
 import VueFlipcard from 'vue-flipcard'
 
@@ -34,7 +34,7 @@ Vue.component('vue-flipcard', VueFlipcard)
 </vue-flipcard>
 ```
 
-## Props | 属性
+### Props | 属性
 
 | 参数/prop | 描述/desc | 数据类型/type | 是否必填/required | 默认值/default |
 | :-- | :-- | :------ | :----- | :---- |
@@ -43,19 +43,19 @@ Vue.component('vue-flipcard', VueFlipcard)
 | direction | 方向 | string | No | horizontal |
 | disable | 是否禁用 | boolean | No | false |
 
-## Events | 事件
+### Events | 事件
 
 | 名称/name | 描述/desc |
 | :-- | :-- |
 | flip | 翻转时触发/emit on flipping |
 
-## Methods | 方法
+### Methods | 方法
 
 | 名称/name | 用法/usage |
 | :-- | :-- |
 | flip | this.$refs.flipcard.flip() |
 
-## License
+### License
 
 [MIT](http://opensource.org/licenses/MIT)
 
