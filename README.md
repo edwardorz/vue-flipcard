@@ -1,4 +1,7 @@
 # vue-flipcard
+![](https://img.shields.io/npm/dw/vue-flipcard.svg?style=flat-square)
+![](https://img.shields.io/github/size/edwardorz/vue-flipcard/build/vue-flipcard.common.js.svg?style=flat-square)
+![](https://img.shields.io/github/license/edwardorz/vue-flipcard.svg?style=flat-square)
 
 Vue flip card component
 
@@ -7,10 +10,10 @@ Vue flip card component
 
 ## Install | 安装
 ```bash
+// use yarn
 yarn add vue-flipcard
-```
-or
-```bash
+
+// or use npm
 npm i vue-flipcard
 ```
 
