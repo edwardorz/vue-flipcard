@@ -67,6 +67,7 @@ export default {
     perspective: 1000;
     transform-style: preserve-3d;
     transition: transform .6s;
+    transform-origin: center center 20px;
     backface-visibility: hidden; /* backface-visibility 属性指定当元素背面朝向观察者时是否可见。元素的背面总是透明的，当其朝向观察者时，显示正面的镜像 */
   }
   
@@ -75,27 +76,27 @@ export default {
   }
 
   &.horizontal &__back {
-    transform: rotateY(-180deg);
+    transform: rotate3d(0, 1, 0, -180deg);
   }
 
   &.horizontal.back &__front {
-    transform: rotateY(180deg);
+    transform: rotate3d(0, 1, 0, 180deg);
   }
 
   &.horizontal.back &__back {
-    transform: rotateY(0);
+    transform: rotate3d(0, 1, 0, 0);
   }
 
   &.vertical &__back {
-    transform: rotateX(-180deg);
+    transform: rotate3d(1, 0, 0, -180deg);
   }
 
   &.vertical.back &__front {
-    transform: rotateX(180deg);
+    transform: rotate3d(1, 0, 0, 180deg);
   }
 
   &.vertical.back &__back {
-    transform: rotateX(0);
+    transform: rotate3d(1, 0, 0, 0);
   }
 }
 </style>
