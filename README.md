@@ -1,11 +1,10 @@
 # vue-flipcard
 
-> Vue flip card component
-
 ![](https://img.shields.io/npm/dw/vue-flipcard.svg?style=flat-square)
 ![](https://img.shields.io/github/size/edwardorz/vue-flipcard/build/vue-flipcard.common.js.svg?style=flat-square)
 ![](https://img.shields.io/github/license/edwardorz/vue-flipcard.svg?style=flat-square)
 
+> Vue flip card component
 
 ### Demo
 [https://edwardorz.github.io/vue-flipcard/](https://edwardorz.github.io/vue-flipcard/)
