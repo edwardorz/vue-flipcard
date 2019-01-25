@@ -4,9 +4,9 @@
   :style="{ 'width': width + 'px', 'height': height + 'px' }"
   @mouseenter="onMouseEnter"
   @mouseleave="onMouseLeave")
-  .vue-flipcard__front
+  .vue-flipcard__front(:style="{ 'transform-origin': 'center center ' + zoffset + 'px' }")
     slot(name="front")
-  .vue-flipcard__back
+  .vue-flipcard__back(:style="{ 'transform-origin': 'center center ' + zoffset + 'px' }")
     slot(name="back")
 </template>
 
@@ -30,6 +30,10 @@ export default {
     direction: {
       type: String,
       default: 'horizontal'
+    },
+    zoffset: {
+      type: Number,
+      default: 20
     },
     disable: {
       type: Boolean,
@@ -67,7 +71,6 @@ export default {
     perspective: 1000;
     transform-style: preserve-3d;
     transition: transform .6s;
-    transform-origin: center center 20px;
     backface-visibility: hidden; /* backface-visibility 属性指定当元素背面朝向观察者时是否可见。元素的背面总是透明的，当其朝向观察者时，显示正面的镜像 */
   }
   

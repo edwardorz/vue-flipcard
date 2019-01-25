@@ -43,6 +43,7 @@ Vue.component('vue-flipcard', VueFlipcard)
 | height | 高度 | number | No | 300 |
 | direction | 方向 | string | No | horizontal |
 | disable | 是否禁用 | boolean | No | false |
+| zoffset | Z轴方向偏移 | number | No | 20 |
 
 ### Events | 事件
 
